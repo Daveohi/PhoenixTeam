@@ -1,0 +1,42 @@
+
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #333;
+    background-image: linear-gradient(to top left, #3a3492f3 0%, #3e30c5cc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+h3 {
+  height: 3rem;
+  padding: 1.5rem;
+  margin-top: 50%;
+  font-size: 5.0rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+p {
+ font-size: 1.6rem;
+ height: 60vh;
+ padding-top: 40px;
+ color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form__input {
+
+  position: relative;  
+  width: 80%;
+  border: 3px dotted white; 
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+  border-radius: 0.7rem;
+}

@@ -1,0 +1,37 @@
+<header>
+
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+        <!-- <img [src]="imagePath"> -->
+        <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+                
+            </i>
+        <br>
+            <strong style="font-size: 20px;">Phoenix Team</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="search products">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+
+        
+          <span class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="login">Login</a></li>
+            <li><a class="dropdown-item" routerLink="register">Register</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">About</a></li>
+            <li><a class="dropdown-item" routerLink="contact">Contact Us</a>
+          </ul>
+          </span> 
+          
+        
+        </div>
+        <button routerLink="cart" class="btn btn-primary">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</header>
